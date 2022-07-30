@@ -5,10 +5,10 @@
 }
 
 body {
-    background-image: url(./imgs/cover1.png);
-    background-size: 100%;
+    background-image: url("./imgs/cover.jpg");
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    
  }
 
  .header-overlay {
@@ -133,13 +133,13 @@ ul {
 }
 
 .circle {
-    background-image: url(./imgs/slider_img.jpg);
+    background-image: url("./imgs/slider_img.jpg");
     background-size: cover;
     background-position: center;
     width: 420px;
     height: 420px;
     border-radius: 100%;
-    border: 20px solid #6b6b6b;
+    border: 25px solid #6b6b6b;
 }
 
 .article {
@@ -215,11 +215,13 @@ ul {
     justify-content: center;
     font-size: 32px;
     color: #333333;
+    transition: 0.7s;
 }
 
 .service-title {
     display: flex;
     text-align: center;
+    transition: 0.7s;
 }
 
 .service-article {
@@ -229,6 +231,7 @@ ul {
     height: 50px;
     font-size: 12px;
     color: #979797;
+    transition: 0.7s;
 }
 
 .service-item:hover {
@@ -244,6 +247,7 @@ ul {
 }
 
 .service-item:hover .service-imgs {
+    background-image: url("./imgs/works.jpg");
     background-size: cover;
     background-position: center center;
     display: inline;
@@ -320,6 +324,7 @@ ul {
     color: white;
     text-align: center;
     font-size: 14px;
+    transition: 0.7s;
 }
 
 .work-item:hover {
