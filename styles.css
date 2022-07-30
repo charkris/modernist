@@ -3,10 +3,17 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* 
+
 body {
-    background-image: "./imgs/cover.img";
-} */
+    background-image: url(./imgs/cover1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+ }
+
+ .header-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 .container{
     width: 960px;
@@ -43,7 +50,7 @@ ul {
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: #290000;
+    /* background-color: #290000; */
     color: white;
 }
 
@@ -108,7 +115,7 @@ ul {
 .slider-section {
     color: white;
     padding-bottom: 56px;
-    background-color: #290000;
+    /* background-color: #290000; */
 }
 
 .sliders {
@@ -168,12 +175,16 @@ ul {
     cursor: pointer;
 }
 
+.button>a {
+    padding: 0 17px;
+}
+
  /** SERVICES SECTION **/
 
 .service-section {
     padding-top: 56px;
     padding-bottom: 56px;
-    background-color: #660000;
+    /* background-color: #660000; */
 }
 
 .services {
@@ -274,7 +285,7 @@ ul {
 }
 
 .work-section {
-    background-color: #660000;
+    /* background-color: #660000; */
     padding-bottom: 56px;
 }
 
@@ -432,6 +443,7 @@ ul {
 
 #submit-btn {
     color: #303030;
+    padding: 0 14px;
 }
 
 .footer-line {
